@@ -2,4 +2,4 @@
 primer trabajo desarrollo web duoc UC Animales en adopcion 
 José Alcántara
 Patricio Alarcon
-Tamara Rios
+Tamara Rivas
