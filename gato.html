@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>.boton {
+        border: 1px solid #000000; /*anchura, estilo y color borde*/
+        padding: 10px; /*espacio alrededor texto*/
+        background-color: #000000; /*color botón*/
+        color: #eeeeee; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform: uppercase; /*capitalización texto*/
+        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        border-radius: 50px; /*bordes redondos*/
+        }
+    </style> 
     <title>Gatos</title>
 </head>
 <body>
@@ -28,15 +39,15 @@ GATOS EN ADOPCIÓN
     <tbody>
         <tr>
             <th><img src="/img/ginger.png" alt="foto de ginger"></th>
-            <th><a href="/gatos/ginger.html">Ginger</a></th>
+            <th><h3><a class="boton" href="gatos/ginger.html" target="Ginger" style="">Ginger</a></th></h3>           
         </tr>
         <tr>
             <th><img src="/img/Tommy.png" alt="Foto de Tommy"></th>
-            <th><a href="/gatos/tommy.html">Tommy</a></th>
+            <th><h3><a class="boton" href="/gatos/tommy.html" target="Tommy" style="">Tommy</a></th></h3>
         </tr>
         <tr>
             <th><img src="/img/Lucifer.png" alt="Foto de Lucifer"></th>
-            <th><a href="/gatos/lucifer.html">Lucifer</a></th>
+            <th><h3><a class="boton" href="/gatos/lucifer.html" target="Lucifer" style="">Lucifer</a></th></h3>
         </tr>
     </tbody>
 </table>

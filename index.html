@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>.boton {
+        border: 1px solid #000000; /*anchura, estilo y color borde*/
+        padding: 10px; /*espacio alrededor texto*/
+        background-color: #000000; /*color botón*/
+        color: #eeeeee; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform: uppercase; /*capitalización texto*/
+        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        border-radius: 50px; /*bordes redondos*/
+        }
+    </style>
     <title>Adopcion de animales</title>
 </head>
 <body>
@@ -24,11 +35,11 @@
 <tbody>
     <tr>
         <th><img src="/img/gato.png"alt="foto de gato"></th>
-        <th><h3><a href="/gato.html">Gatos</a></h3></th>
+        <th><h3><a class="boton" href="/gato.html" target="Gatos" style="">Gatos</a></h3></th>
     </tr>
     <tr>
         <th><img src="/img/perro.png"alt="foto de perro"></th>
-        <th><h3><a href="/perro.html">Perros</a></h3></th>
+        <th><h3><a class= "boton" href="/perro.html" target="Perros" style="">Perros</a></h3></th>
     </tr>
 </tbody>
 </table>
