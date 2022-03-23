@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: sans-serif;
+}
+
+.separador{
+    display: flex;
+}
+
+.lista {
+    list-style: none;
+    margin-top: 3rem;
+    width: 20%;
+    line-height: 1.5rem;
+    padding: 0px;
+}
+
+li:hover {
+    background-color: black;
+    color:yellow;
+}
+
+.caja{
+    width: 80%;
+}
+
+.margen{
+    padding: 1rem;
+    margin-right: 2rem;
+    height: 25%;
+}
+.celeste {
+    background-color: aqua;
+}
+.amarillo {
+    background-color: yellow;
+}
+.naranja {
+    background-color: orange;
+}
+.rojo {
+    background-color: red;
+}
