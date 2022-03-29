@@ -1,0 +1,31 @@
+.contenido {
+    width: 880px;
+    margin: 0 auto;
+    background-color:#dddddd;
+    padding:20px;
+    text-align:center;
+}
+
+.boton {
+    border: 1px solid #000000; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #000000; /*color botón*/
+    color: #eeeeee; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
+
+img {
+    width: 40%;
+    height: 10%;
+}
+.titulo {
+    text-align: center;
+}
+.parrafo, ul {
+    text-align: left;
+    width: 70%;
+    margin: auto auto;
+}
