@@ -1,31 +1,15 @@
-.contenido {
-    width: 880px;
-    margin: 0 auto;
-    background-color:#dddddd;
-    padding:20px;
-    text-align:center;
-}
-
-.boton {
-    border: 1px solid #000000; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
-    background-color: #000000; /*color botón*/
-    color: #eeeeee; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 50px; /*bordes redondos*/
-}
-
-img {
-    width: 40%;
-    height: 10%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Rubik+Bubbles&display=swap');
 .titulo {
-    text-align: center;
+    font-family: 'Rubik Bubbles', cursive;
+    color: rgb(31, 28, 34);
+    font-weight: 100;
 }
-.parrafo, ul {
-    text-align: left;
-    width: 70%;
-    margin: auto auto;
+
+.parrafo {
+    font-family:sans-serif;
+}
+
+.titulo-imagen {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }
